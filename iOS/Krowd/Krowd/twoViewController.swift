@@ -1,25 +1,27 @@
 //
-//  ViewController.swift
-//  Krowd
+//  twoViewController.swift
+//  
 //
-//  Created by Gil Felot on 07/09/15.
-//  Copyright (c) 2015 Gil Felot. All rights reserved.
+//  Created by Gil Felot on 08/09/15.
+//
 //
 
 import UIKit
 
-class ViewController: UIViewController, ENSideMenuDelegate {
+class twoViewController: UIViewController, ENSideMenuDelegate {
     
-    let appGREEN = UIColor(red: 34/255, green: 182/255, blue: 168/255, alpha: 1.0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.sideMenuController()?.sideMenu?.delegate = self
-        // Do any additional setup after loading the view, typically from a nib.
-        navigationController!.navigationBar.barTintColor = appGREEN
-        navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
     }
-
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
     @IBAction func toggleSideMenu(sender: AnyObject) {
         toggleSideMenuView()
     }
@@ -45,4 +47,5 @@ class ViewController: UIViewController, ENSideMenuDelegate {
     func sideMenuDidOpen() {
         println("sideMenuDidOpen")
     }
+
 }
