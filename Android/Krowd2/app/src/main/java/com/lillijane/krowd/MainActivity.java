@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.container, StreamFragment.newInstance())
                     .commit();
+            mNavigationView.setCheckedItem(R.id.nav_stream);
         }
 
         mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -44,21 +45,22 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.nav_stream:
+                        mNavigationView.setCheckedItem(R.id.nav_stream);
                         getSupportFragmentManager().beginTransaction()
                                 .replace(R.id.container, StreamFragment.newInstance())
                                 .commit();
                         break;
                     case R.id.nav_donate:
+                        mNavigationView.setCheckedItem(R.id.nav_donate);
                         getSupportFragmentManager().beginTransaction()
                                 .replace(R.id.container, DonateFragment.newInstance())
-                               .commit();
+                                .commit();
                         break;
                 }
                 mDrawerLayout.closeDrawer(GravityCompat.START);
                 return true;
             }
         });
-        mNavigationView.setCheckedItem(R.id.nav_stream);
     }
 
     private void setUpToolbar() {

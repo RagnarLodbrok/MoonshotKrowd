@@ -1,6 +1,5 @@
 package com.lillijane.krowd;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -12,7 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
-import com.lillijane.krowd.dummy.DummyContent;
+import com.lillijane.krowd.data.ChatContent;
 
 /**
  * A fragment representing a list of Items.
@@ -38,8 +37,7 @@ public class ChatFragment extends Fragment {
     private ListAdapter mAdapter;
 
     public static ChatFragment newInstance() {
-        ChatFragment fragment = new ChatFragment();
-        return fragment;
+        return new ChatFragment();
     }
 
     /**
@@ -54,8 +52,8 @@ public class ChatFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
 
-        mAdapter = new ArrayAdapter<DummyContent.DummyItem>(getActivity(),
-                android.R.layout.simple_list_item_1, android.R.id.text1, DummyContent.ITEMS);
+        mAdapter = new ArrayAdapter<>(getActivity(),
+                android.R.layout.simple_list_item_1, android.R.id.text1, ChatContent.ITEMS);
     }
 
     @Override
