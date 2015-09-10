@@ -57,6 +57,7 @@
                         <viewControllerLayoutGuide type="bottom" id="w2i-WZ-WsD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6rk-nm-317">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="View n2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuK-ki-Eeb">
