@@ -9,7 +9,7 @@
 import UIKit
 import MediaPlayer
 
-class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate, ENSideMenuDelegate {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate, ENSideMenuDelegate {
     
     let appGREEN = UIColor(red: 34/255, green: 182/255, blue: 168/255, alpha: 1.0)
     

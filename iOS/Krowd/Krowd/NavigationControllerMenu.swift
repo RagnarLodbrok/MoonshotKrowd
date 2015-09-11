@@ -22,23 +22,4 @@ class NavigationControllerMenu: ENSideMenuNavigationController, ENSideMenuDelega
         // Do any additional setup after loading the view.
     }
 
-    // MARK: - ENSideMenu Delegate
-    func sideMenuWillOpen() {
-        println("sideMenuWillOpen")
-    }
-    
-    func sideMenuWillClose() {
-        println("sideMenuWillClose")
-    }
-    
-    func sideMenuDidClose() {
-        println("sideMenuDidClose")
-    }
-    
-    func sideMenuDidOpen() {
-        println("sideMenuDidOpen")
-    }
-
-    
-
 }
