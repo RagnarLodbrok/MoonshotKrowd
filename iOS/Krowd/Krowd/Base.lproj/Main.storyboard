@@ -48,7 +48,7 @@
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="uaY-GW-ITk">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="uaY-GW-ITk">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uaY-GW-ITk" id="9WX-hP-Q8T">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -57,6 +57,10 @@
                                         <animations/>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="kIZ-5U-slz" id="5oD-1c-yYx"/>
+                                    <outlet property="delegate" destination="kIZ-5U-slz" id="xY4-NL-mYi"/>
+                                </connections>
                             </tableView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Discuter avec les autres Krowders" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TI4-Sx-9x0">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
