@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1DAAA11B9F031500A382B7 /* NavigationControllerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DAAA01B9F031500A382B7 /* NavigationControllerMenu.swift */; };
+		2B1DAAA31B9F03AF00A382B7 /* MyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DAAA21B9F03AF00A382B7 /* MyMenuTableViewController.swift */; };
+		2B492F001BA1EE4B000516E0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B492EFF1BA1EE4B000516E0 /* MediaPlayer.framework */; };
+		2B54D1771B9EFCB300AC5990 /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54D1751B9EFCB300AC5990 /* ENSideMenu.swift */; };
+		2B54D1781B9EFCB300AC5990 /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B54D1761B9EFCB300AC5990 /* ENSideMenuNavigationController.swift */; };
+		2B554E7A1BA26065002CBB1D /* DonationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B554E791BA26065002CBB1D /* DonationTableViewController.swift */; };
 		2B6B63C61B9DD2BB005DD91F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B63C51B9DD2BB005DD91F /* AppDelegate.swift */; };
 		2B6B63C81B9DD2BB005DD91F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B63C71B9DD2BB005DD91F /* ViewController.swift */; };
 		2B6B63CB1B9DD2BB005DD91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B6B63C91B9DD2BB005DD91F /* Main.storyboard */; };
 		2B6B63CD1B9DD2BB005DD91F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B6B63CC1B9DD2BB005DD91F /* Images.xcassets */; };
 		2B6B63D01B9DD2BB005DD91F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B6B63CE1B9DD2BB005DD91F /* LaunchScreen.xib */; };
 		2B6B63DC1B9DD2BB005DD91F /* KrowdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B63DB1B9DD2BB005DD91F /* KrowdTests.swift */; };
+		2BC1536F1BA28BD800A69CFB /* DonationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC1536E1BA28BD800A69CFB /* DonationDetail.swift */; };
+		2BC153731BA28E0800A69CFB /* DetailDonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC153721BA28E0800A69CFB /* DetailDonationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B1DAAA01B9F031500A382B7 /* NavigationControllerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerMenu.swift; sourceTree = "<group>"; };
+		2B1DAAA21B9F03AF00A382B7 /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyMenuTableViewController.swift; sourceTree = "<group>"; };
+		2B492EFF1BA1EE4B000516E0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2B54D1751B9EFCB300AC5990 /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		2B54D1761B9EFCB300AC5990 /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
+		2B554E791BA26065002CBB1D /* DonationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationTableViewController.swift; sourceTree = "<group>"; };
 		2B6B63C01B9DD2BB005DD91F /* Krowd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Krowd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6B63C41B9DD2BB005DD91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6B63C51B9DD2BB005DD91F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +50,9 @@
 		2B6B63D51B9DD2BB005DD91F /* KrowdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrowdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6B63DA1B9DD2BB005DD91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6B63DB1B9DD2BB005DD91F /* KrowdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrowdTests.swift; sourceTree = "<group>"; };
+		2B9BABFC1BA25C8400B465A0 /* vidlol.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vidlol.mp4; sourceTree = "<group>"; };
+		2BC1536E1BA28BD800A69CFB /* DonationDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationDetail.swift; sourceTree = "<group>"; };
+		2BC153721BA28E0800A69CFB /* DetailDonationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailDonationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B492F001BA1EE4B000516E0 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +74,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B54D1791B9EFDB500AC5990 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2B54D1751B9EFCB300AC5990 /* ENSideMenu.swift */,
+				2B54D1761B9EFCB300AC5990 /* ENSideMenuNavigationController.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 		2B6B63B71B9DD2BB005DD91F = {
 			isa = PBXGroup;
 			children = (
+				2B492EFF1BA1EE4B000516E0 /* MediaPlayer.framework */,
 				2B6B63C21B9DD2BB005DD91F /* Krowd */,
 				2B6B63D81B9DD2BB005DD91F /* KrowdTests */,
 				2B6B63C11B9DD2BB005DD91F /* Products */,
@@ -77,9 +105,16 @@
 		2B6B63C21B9DD2BB005DD91F /* Krowd */ = {
 			isa = PBXGroup;
 			children = (
+				2B54D1791B9EFDB500AC5990 /* Library */,
 				2B6B63C51B9DD2BB005DD91F /* AppDelegate.swift */,
+				2BC1536E1BA28BD800A69CFB /* DonationDetail.swift */,
+				2B1DAAA21B9F03AF00A382B7 /* MyMenuTableViewController.swift */,
+				2B554E791BA26065002CBB1D /* DonationTableViewController.swift */,
 				2B6B63C71B9DD2BB005DD91F /* ViewController.swift */,
+				2B1DAAA01B9F031500A382B7 /* NavigationControllerMenu.swift */,
+				2BC153721BA28E0800A69CFB /* DetailDonationViewController.swift */,
 				2B6B63C91B9DD2BB005DD91F /* Main.storyboard */,
+				2B9BABFC1BA25C8400B465A0 /* vidlol.mp4 */,
 				2B6B63CC1B9DD2BB005DD91F /* Images.xcassets */,
 				2B6B63CE1B9DD2BB005DD91F /* LaunchScreen.xib */,
 				2B6B63C31B9DD2BB005DD91F /* Supporting Files */,
@@ -212,7 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC1536F1BA28BD800A69CFB /* DonationDetail.swift in Sources */,
+				2B54D1781B9EFCB300AC5990 /* ENSideMenuNavigationController.swift in Sources */,
+				2B54D1771B9EFCB300AC5990 /* ENSideMenu.swift in Sources */,
+				2BC153731BA28E0800A69CFB /* DetailDonationViewController.swift in Sources */,
 				2B6B63C81B9DD2BB005DD91F /* ViewController.swift in Sources */,
+				2B1DAAA11B9F031500A382B7 /* NavigationControllerMenu.swift in Sources */,
+				2B554E7A1BA26065002CBB1D /* DonationTableViewController.swift in Sources */,
+				2B1DAAA31B9F03AF00A382B7 /* MyMenuTableViewController.swift in Sources */,
 				2B6B63C61B9DD2BB005DD91F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +451,7 @@
 				2B6B63E11B9DD2BB005DD91F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B6B63E21B9DD2BB005DD91F /* Build configuration list for PBXNativeTarget "KrowdTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +460,7 @@
 				2B6B63E41B9DD2BB005DD91F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
