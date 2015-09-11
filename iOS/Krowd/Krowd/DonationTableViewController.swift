@@ -10,14 +10,10 @@ import UIKit
 
 class DonationTableViewController: UITableViewController, UITableViewDataSource, UITableViewDelegate, ENSideMenuDelegate {
     
+    let donationDictionary = DonationDetail.allDonations
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,8 +25,6 @@ class DonationTableViewController: UITableViewController, UITableViewDataSource,
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
-
-    // Return the number of sections.
         return 1
     }
 
@@ -38,17 +32,23 @@ class DonationTableViewController: UITableViewController, UITableViewDataSource,
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
         
-        return 10
+        return donationDictionary.count
 //        return donations.count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
-        cell.textLabel?.text = "Cell N\(indexPath.row + 1)"
-
+        let donation = donationDictionary[indexPath.row]
+        cell.textLabel?.text = String(donation.image)
+        cell.detailTextLabel?.text = String(donation.description)
+        
         return cell
     }
 
-    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let detailViewController = self.storyboard!.instantiateViewControllerWithIdentifier("DetailDonationViewController") as! DetailDonationViewController
+        detailViewController.data = donationDictionary[indexPath.row]
+        self.navigationController!.pushViewController(detailViewController, animated: true)
+    }
 }

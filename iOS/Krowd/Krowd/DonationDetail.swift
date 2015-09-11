@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 struct DonationDetail {
     let image: String
     let description: String

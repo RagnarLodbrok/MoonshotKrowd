@@ -107,6 +107,7 @@
 			children = (
 				2B54D1791B9EFDB500AC5990 /* Library */,
 				2B6B63C51B9DD2BB005DD91F /* AppDelegate.swift */,
+				2BC1536E1BA28BD800A69CFB /* DonationDetail.swift */,
 				2B1DAAA21B9F03AF00A382B7 /* MyMenuTableViewController.swift */,
 				2B554E791BA26065002CBB1D /* DonationTableViewController.swift */,
 				2B6B63C71B9DD2BB005DD91F /* ViewController.swift */,
@@ -117,7 +118,6 @@
 				2B6B63CC1B9DD2BB005DD91F /* Images.xcassets */,
 				2B6B63CE1B9DD2BB005DD91F /* LaunchScreen.xib */,
 				2B6B63C31B9DD2BB005DD91F /* Supporting Files */,
-				2BC1536E1BA28BD800A69CFB /* DonationDetail.swift */,
 			);
 			path = Krowd;
 			sourceTree = "<group>";

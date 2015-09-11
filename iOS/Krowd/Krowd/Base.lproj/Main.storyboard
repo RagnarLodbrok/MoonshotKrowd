@@ -322,6 +322,12 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="desc" destination="zYp-EY-uOu" id="ago-C9-GMh"/>
+                        <outlet property="image" destination="3Pf-LD-gZT" id="YWX-fk-cD3"/>
+                        <outlet property="obj" destination="0HF-7h-NXx" id="5aR-xi-cNJ"/>
+                        <outlet property="slider" destination="oTg-nJ-2sD" id="oMP-3y-K4Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7t-i7-1Ja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
