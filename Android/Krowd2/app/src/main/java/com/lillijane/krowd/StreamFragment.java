@@ -58,7 +58,7 @@ public class StreamFragment extends Fragment {
         });
 
         Uri video = Uri.parse("android.resource://" + getActivity().getPackageName() + "/"
-                + R.raw.documentariesandyou);
+                + R.raw.video);
         mVideoView.setVideoURI(video);
     }
 
