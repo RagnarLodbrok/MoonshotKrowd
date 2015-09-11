@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MyMenuTableViewController: UITableViewController {
+class MyMenuTableViewController: UITableViewController, UITableViewDataSource {
 
     var selectedMenuItem : Int = 0
     override func viewDidLoad() {
@@ -85,10 +85,10 @@ class MyMenuTableViewController: UITableViewController {
         var destViewController : UIViewController
         switch (indexPath.row) {
         case 0:
-            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("View1") as! UIViewController
+            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("ChatView") as! UIViewController
             break
         default:
-            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("View2") as! UIViewController
+            destViewController = mainStoryboard.instantiateViewControllerWithIdentifier("DonationTableViewController") as! UIViewController
             break
         }
         sideMenuController()?.setContentViewController(destViewController)

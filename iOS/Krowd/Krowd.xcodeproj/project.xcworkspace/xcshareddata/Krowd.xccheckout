@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D9123C21-3F93-4CEA-8979-2D4BBEFD73FC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Krowd</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>B2AEABF388A5BA5293D7B901AC009703B10C16DC</key>
 		<string>github.com:RagnarLodbrok/MoonshotKrowd.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/Krowd/Krowd.xcodeproj</string>
+	<string>iOS/Krowd/Krowd.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B2AEABF388A5BA5293D7B901AC009703B10C16DC</key>
